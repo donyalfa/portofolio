@@ -390,11 +390,11 @@
   display: flex;
   background-color: #ffffff;
   border-radius: 15px;
-  flex-direction: row;
+  flex-direction: roe;
  }
 
  .contact .items .item {
-  width: 80%;
+  width: 100%;
   padding: 30px;
   border: 1px solid rgb(0, 0, 0);
  }
@@ -582,11 +582,13 @@
   }
 
     
-    .contact .items  {
-      flex-wrap: wrap;
+    .contact .items   {
+      flex-flow: wrap;
       justify-content: center;
-      align-items: center;
     }
+
+    
+
 
      nav .github {
       display: none;
@@ -594,6 +596,6 @@
   
 }
   
-  
+
   
   
